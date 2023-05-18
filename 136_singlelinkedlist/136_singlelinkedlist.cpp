@@ -17,3 +17,4 @@ void addNode() {
 	cin >> nama;
 	nodeBaru->noMhs = nim;
 	nodeBaru->name = nama;
+	if (START == NULL || nim <= START->noMhs) {
